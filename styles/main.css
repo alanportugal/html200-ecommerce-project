@@ -8,12 +8,10 @@ p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
+  max-width: 19rem;
 }
 
 /* TODO: size images manually so this is not necessary */
-img {
-  max-height: 20rem;
-}
 
 /***************** NAV *****************/
 
@@ -67,4 +65,7 @@ h3 {
 
 .item-container{
   display: flex;
+  /*flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
