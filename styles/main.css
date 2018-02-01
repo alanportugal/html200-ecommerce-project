@@ -8,10 +8,13 @@ p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
+  /* Applied 19rem to make content space more consistent */
   max-width: 19rem;
 }
 
-/* TODO: size images manually so this is not necessary */
+/* TODO: size images manually so this is not necessary 
+Each picture was manually resized to have a width of 300px, while also keeping the aspect ratio with the height in proportion as needed.
+*/
 
 /***************** NAV *****************/
 
@@ -19,8 +22,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Per assignment #3 applied flex to nav ul */
 nav ul {
   display: flex;
+  align-content: space-between;
 }
 
 /**************** HERO *****************/
@@ -63,6 +68,7 @@ h3 {
   color: #2d2d2d;
 }
 
+/* Per assignment #3 applied flex to item-container */
 .item-container{
   display: flex;
   flex-flow: row wrap;
