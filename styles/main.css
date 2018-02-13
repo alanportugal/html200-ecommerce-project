@@ -74,3 +74,10 @@ h3 {
   flex-flow: row wrap;
   justify-content: space-around;
 }
+
+/* Per assignment #5 "Write the rest of the necessary CSS for item listings (`<div class="item">`)."" */
+.item {
+  /* equivalent to 49.5% of total browser width,
+  to make calculating srcset easier for us :) */
+  width: 55%;
+}
