@@ -10,6 +10,7 @@ p {
   color: #2d2d2d;
   /* Applied 19rem to make content space more consistent */
   max-width: 19rem;
+  padding: 0 1rem;
 }
 
 /* TODO: size images manually so this is not necessary 
@@ -73,11 +74,13 @@ h3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding: 0 1rem;
 }
 
 /* Per assignment #5 "Write the rest of the necessary CSS for item listings (`<div class="item">`)."" */
 .item {
   /* equivalent to 49.5% of total browser width,
-  to make calculating srcset easier for us :) */
-  width: 55%;
+  to make calculating srcset easier for us :)
+  width: 55%; */
+  /* Decided not to use this div tag since it made the site not render as well */
 }
