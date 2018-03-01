@@ -84,3 +84,17 @@ h3 {
   width: 55%; */
   /* Decided not to use this div tag since it made the site not render as well */
 }
+
+/* Per assignment #7 - Write CSS that uses media queries to change layouts/style based on device attributes. */
+/*********** MEDIA QUERIES ***********/
+@media (min-width: 1024px) {
+  section { width: 80% }
+  img { padding: 0.5rem; }
+  p { font-family: fantasy; }
+}
+
+@media (max-width: 1024px) {
+  section { width: 100% }
+  img { padding: 1rem; }
+  p { font-family: serif; }
+}
