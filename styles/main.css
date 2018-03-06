@@ -4,6 +4,10 @@ body {
 
 }
 
+li {
+  padding: 0.25rem;
+}
+
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
