@@ -69,4 +69,39 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+[Research
+========
+
+User Base:
+Primarily Female
+18-49 yrs old
+some college +
+Upper middle-income +
+
+Devices:
+iPhones & Android Phones
+
+Used Website Service: BrowserStack.com (Trial Version)
+Testing Steps:
+1. Entered URL to test
+2. Viewed and attempted to manipulate website on the various simulated devices.
+
+Multiple Browsers Tested:
+Edge, Chrome, Firefox, Safari, Firefly
+
+Rendered Successfully On:
+iPhone 5S 320x568
+Galaxy S5 Mini 360x640
+Galaxy S5
+iPhone 6
+iPhone 6 Plus
+iPad Mini 2
+iPad Air
+Galaxy Tab 4
+Windows
+Max OSX
+
+Didn't render on:
+Galaxy Note 3
+Google Nexus 4
+Kindle Fire HDX 7]
