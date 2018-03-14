@@ -69,9 +69,8 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[Research
-========
-
+[
+Research
 User Base:
 Primarily Female
 18-49 yrs old
